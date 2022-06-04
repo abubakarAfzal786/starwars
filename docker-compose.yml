@@ -1,0 +1,10 @@
+version: "3.0"
+services:
+  vue_app:
+    build:
+      context: .
+    container_name: starwars
+    ports:
+      - "81:3000"
+    environment:
+      - NODE_ENV=production
