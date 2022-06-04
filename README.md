@@ -13,4 +13,5 @@ Make sure that your docker is runing
 cd into the project and run this command.
 
 > docker-compose up --build
-> Your Project is up and Running at localhost:81
+
+- Your Project is up and Running at localhost:81
